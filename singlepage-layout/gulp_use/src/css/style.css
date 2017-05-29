@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  background: #151515 url("../images/bg.png") no-repeat fixed left bottom;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+
+.buttons .button, .buttons .button-showy {
+  margin: 10px; }
+
+.button, .button-showy {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #afa58d;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.2rem; }
+  .button:hover, .button-showy:hover {
+    opacity: 0.9; }
+
+.button-showy {
+  background-color: #f1b400; }
+
+.header {
+  padding-top: 170px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px; }
+  .header .site-title-sub {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0; }
+    .header .site-title-sub::before, .header .site-title-sub::after {
+      content: '';
+      display: inline-block;
+      width: 140px;
+      height: 2px;
+      margin-top: 0;
+      margin-left: 30px;
+      margin-bottom: 0;
+      margin-right: 30px;
+      background-color: #fff;
+      vertical-align: middle; }
+  .header .site-title {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-right: 0;
+    font-size: 7.6rem; }
+  .header .site-description {
+    margin-bottom: 50px;
+    color: #888;
+    font-size: 1.6rem; }
+
+.about {
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  background-color: #fff;
+  color: #333; }
